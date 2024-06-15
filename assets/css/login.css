@@ -3,7 +3,7 @@
 
 
 body {
-   background-color: #cc8a56;
+    background-color: #cc8a56;
     margin: 0;
     height: 100vh;
     /* display: flex;
@@ -43,18 +43,21 @@ input {
     background-color: #ebe5d9;
     border-radius: 0px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    
+    min-height: 80vh;
 }
+
 /* nav{
    
     margin-left: -32.5%;
     display: flex;
     justify-content: center;
 } */
-.block{
+.block {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .custom-btn {
@@ -95,6 +98,8 @@ header {
 .greenBackground {
     margin: 0;
     background-color: #14B09B;
+    display: flex;
+    flex-direction: column;
 }
 
 .iconFillWhite {
